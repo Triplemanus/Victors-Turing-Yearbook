@@ -1,6 +1,10 @@
 import React from 'react';
 import './Person.css';
 
-// PERSON COMPONENT CODE GOES HERE
+class Person extends Component {
+  constructor () {
+    
+  }
+}
 
 export default Person;

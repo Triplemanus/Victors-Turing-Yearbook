@@ -26,7 +26,7 @@ const people = {
     {id: 29, name: 'Isabella', quote: 'Wait, what?', superlative: 'Most likely to play the Geico Camel on Broadway', photo: 'https://placekitten.com/200/300'},
     {id: 210, name: 'Jorge', quote: 'Falafel forever!', superlative: 'Most likely to water lawn on non-approved days', photo: 'https://placekitten.com/200/300'},
     {id: 211, name: 'Kelly', quote: 'Don\'t hate me \'cause I\'m beautiful!', superlative: 'Most likely to live in a yurt', photo: 'https://placekitten.com/200/300'},
-    {id: 212, name: 'Lucia', quote: '', superlative: 'Most likely to', photo: 'https://placekitten.com/200/300'},
+    {id: 212, name: 'Lucia', quote: 'I\'m with stupid =>', superlative: 'Most likely to eat thier young', photo: 'https://placekitten.com/200/300'},
     {id: 213, name: 'Mei', quote: '', superlative: 'Most likely to', photo: 'https://placekitten.com/200/300'},
     {id: 214, name: 'Nina', quote: '', superlative: 'Most likely to', photo: 'https://placekitten.com/200/300'},
     {id: 215, name: 'Ophus', quote: '', superlative: 'Most likely to', photo: 'https://placekitten.com/200/300'},

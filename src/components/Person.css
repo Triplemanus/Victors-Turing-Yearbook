@@ -1,0 +1,25 @@
+.person {
+  background-color: rgb(247, 246, 246);
+  box-sizing: border-box;
+  border: 1px solid rgb(129, 128, 128);
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.image {
+  border: 1px solid rgb(223, 222, 222);
+  height: 250px; 
+  width: 84%;
+  align-content: center;
+
+}
+
+.quote {
+  color: black;
+  font-style: italic;
+}
+p {
+  color: rgb(52, 52, 255);
+}

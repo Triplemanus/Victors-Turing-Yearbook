@@ -24,3 +24,15 @@ h1 {
   padding: 10px;
   color: limegreen;
 }
+
+h2 {
+  background-color: rgba(242, 242, 242, 0.95);
+  padding: 10px;
+  color: rgb(64, 82, 241);
+}
+
+h3 {
+
+  font-size: .8em;
+  color: red;
+}

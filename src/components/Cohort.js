@@ -3,7 +3,7 @@ import Person from './Person';
 import './Cohort.css';
 
 const Cohort = ({staff}) => {
-  console.log(staff[0].quote);
+  //console.log(staff[0].quote);
   const staffCards = staff.map(staff => {
     return (
       <Person 

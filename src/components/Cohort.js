@@ -2,19 +2,25 @@ import React from 'react';
 import Person from './Person';
 import './Cohort.css';
 
-class Cohort extends Component {
-  constructor () {
-    super();
-    this.state = {
-
-    }
-  }
-
-  render() {
+const Cohort = ({staff}) => {
+  console.log(staff[0].quote);
+  const staffCards = staff.map(staff => {
     return (
-      <h1>Hola!</h1>
+      <Person 
+        image = {staff.photo}
+        name = {staff.name}
+        quote = {staff.quote}
+        superlative = {staff.superlative}
+      /> 
     )
-  }
+  });
+
+    return (
+      <div className='staff-container'>
+      {staffCards}
+      </div>
+    )
+  
 }
 
 export default Cohort;

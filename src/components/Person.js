@@ -4,6 +4,7 @@ import './Person.css';
 const Person = ({image, name, quote, superlative, id, deleteStudent}) => {
   return (
     <div className='person'>
+      {/* <p>{React.version}</p> */}
       <img className="image" src={image} alt="Spirit animal"></img>
       <h3>{name}</h3>
       <p className="quote">"{quote}"</p>

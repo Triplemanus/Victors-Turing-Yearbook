@@ -3,7 +3,7 @@ import './Person.css';
 
 const Person = ({image, name, quote, superlative, id, deleteStudent}) => {
   return (
-    <div className='person'>
+    <div className='person' contenteditable="true">
       {/* <p>{React.version}</p> */}
       <img className="image" src={image} alt="Spirit animal"></img>
       <h3>{name}</h3>
